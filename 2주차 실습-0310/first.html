@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- 언어 속성 -> "ko"는 한국어-->
+<html lang="en"> 
+<!-- body태그에 필요한 스타일 시트와 자바스크립트 제공 -->
+<head> 
+    <!-- meta => 웹페이지 추가 정보 전달-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Basic</title>
+    <style>
+        h1 {
+            color: wheat;
+            background-color: tomato;
+        }
+    </style>
+    <script src = "first.js"></script>
+</head>
+<!-- 페이지에 보여주고 싶은 부분은 body에 작성한다 -->
+<body> 
+    <h1>Hello World!</h1>
+    <hr> <!-- 얘는 줄 그어줌-->
+    <h2>second title</h2>
+    <hr>
+    <p> p태그가 무엇인고 하니 ,,,</p>
+    <p> 바로 문단 나눠주는 역할이다,,</p>
+    <hr>
+    <a href="https://github.com/oownahcohc/web-programming">웹플 깃허브</a>
+    <hr>
+    <a href="#first">첫번째 내부링크</a><br>
+    <a href="#second">두번째 내부링크</a><br>
+    <a href="#third">세번째 내부링크</a><br>
+    <br>
+    <h1 id="first">첫번째 내부링크</h1>
+    <p>1. 내부링크에 담긴 내용~~~~~~</p>
+    <h1 id="second">두번째 내부링크</h1>
+    <p>2. 내부링크에 담긴 내용~~~~~~</p>
+    <h1 id="third">세번째 내부링크</h1>
+    <p>3. 내부링크에 담긴 내용~~~~~~</p>
+    <hr>
+    <ul>
+        <li>ul 태그는</li>
+        <li>점을 </li>
+        <li>출력해주지</li>
+    </ul>
+    <br>
+    <ol>
+        <li>ol 태그는</li>
+        <li>번호 순서를 </li>
+        <li>출력해주지</li>
+    </ol>
+    <hr>
+    <table border="1"> <!-- 표의 테두리 지정하는 속성-->
+        <thead> <!-- 기준 행-->
+            <tr> <!-- 행 내용-->
+                <th></th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1교시</td>
+                <td>국어</td>
+                <td>영어</td>
+                <td>수학</td>
+                <td>사회</td>
+                <td>과학</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td>국어</td>
+                <td>영어</td>
+                <td>수학</td>
+                <td>사회</td>
+                <td>과학</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
