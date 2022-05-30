@@ -382,18 +382,18 @@
         var arrBoardList = [];
 
         function saveWriting() {
-            var wirter = document
+            var writer = document
                 .getElementsByClassName("name")[0]
                 .querySelector("input").value;
             console.log("writer: ",writer);
             var pw = document
                 .getElementsByClassName("pw")[0]
                 .querySelector("input").value;
-            var wirting = document
+            var writing = document
                 .getElementsByClassName("contents")[0]
                 .querySelector("textarea").value;
 
-            if (wirter.length <= 0 || wirting.length <= 0) {
+            if (writer.length <= 0 || wirting.length <= 0) {
                 alert("등록할 글의 작성자와 내용을 입력해주세요!");
                 return;
             } 
@@ -404,12 +404,14 @@
             }
 
             arrBoardList.push({
-                wirter,
+                writer,
                 pw,
-                wirting
+                writing
             });
 
             console.log(arrBoardList);
+
+            displayBoardList();
         }
 
         window.onload = function () {
