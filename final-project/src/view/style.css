@@ -1,0 +1,1064 @@
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+}
+
+@font-face {
+  font-family: 'MontserratSemi';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap')
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+}
+
+*,body {
+  margin: 0;
+  z-index: 2;
+}
+.section_wrap {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section_underline {
+  border-bottom: 1px solid #3e3e3e;
+  margin: 0 auto 30px;
+}
+.box_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box, .box_list {
+  display: flex;
+}
+.box {
+  justify-content: center;
+}
+.box_list {
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+.section_footer_btn {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.181);
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.ellipsis {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.btn_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.put_btn {
+  width: 100%;
+}
+.update_btn, .cancel_btn {
+  width: 40%;
+}
+.update, .delete {
+  padding: 3px 10px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.104);
+  margin: 0 10px;
+}
+.box_input input, .box_input textarea {
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid rgb(74, 74, 74);
+  outline: none;
+  padding: 5px;
+  border-radius: 15px;
+}
+@media screen and (min-width:510px) {
+  .wrapper {
+    margin: 0;
+    position: relative;
+    height: 5477px;
+    width: 100vw;
+    background: #222436;
+  }
+
+  #Headline {
+    position: absolute;
+    width: 890px;
+    height: 85px;
+    left: 6.6%;
+    top: 428px;
+    font-family: "MontserratBold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #ffffff;
+  }
+
+  #Description {
+    position: absolute;
+    width: 495px;
+    height: 38px;
+    left: 6.6%;
+    top: 535px;
+    font-family: "MontserratSemi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #eaecf0;
+  }
+
+  #RockImg {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: 64%;
+    top: 303px;
+  }
+
+  #PaperPollen {
+    position: absolute;
+    width: 580px;
+    height: 600px;
+    left: 59%;
+    top: 208px;
+  }
+
+  #scroll {
+    position: absolute;
+    width: 137px;
+    height: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 946px;
+    font-family: "MontserratSemi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #DownArrow {
+    position: absolute;
+    width: 29px;
+    height: 42px;
+    left:50%;
+    transform: translateX(-50%);
+    top: 988px;
+  }
+
+  #SkillImg {
+    position: absolute;
+    width: 162px;
+    height: 157px;
+    left:50%;
+    transform: translateX(-50%);
+    top: 1156px;
+  }
+
+  #SkillText {
+    position: absolute;
+    width: 88px;
+    height: 49px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1331px;
+    font-family: "MontserratBold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    color: #eaecf0;
+  }
+
+  #SkillDesc {
+    position: absolute;
+    width: 959px;
+    height: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1398px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+    color: #eaecf0;
+  }
+  .MobileCard{
+    width:100%;
+    top: 1554px;
+    display:flex;
+    position:absolute;
+    justify-content: space-around;
+  }
+  .Card {
+    position:relative;
+    display:flex;
+    width: 350px;
+    height: 567px;
+    background: #ffffff;
+    box-shadow: 2.34621px 2.34621px 44.6476px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  /* .Card:nth-child(2) {
+    left: 28%;
+  }
+
+  .Card:nth-child(3) {
+    left: 53%;
+  }
+
+  .Card:nth-child(4) {
+    left: 78%;
+  } */
+
+  .CardImage {
+    position: absolute;
+    width: 145px;
+    height: 89px;
+    left: 110px;
+    top: 83px;
+  }
+
+  #Check {
+    position: absolute;
+    width: 25px;
+    height: 17px;
+    left: 28px;
+    top: 242px;
+  }
+
+  #CardTitle {
+    position: absolute;
+    width: 106px;
+    height: 33px;
+    left: 66px;
+    top: 234px;
+    font-family: "MontserratBold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    color: #222436;
+  }
+
+  #CardDesc {
+    position: absolute;
+    width: 311px;
+    height: 137px;
+    left: 27px;
+    top: 299px;
+    font-family: "MontserratSemi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    letter-spacing: -0.002em;
+    color: #50536c;
+  }
+
+  #Line {
+    position: absolute;
+    width: 315px;
+    height: 0px;
+    left: 25px;
+    top: 286px;
+    border: 1px solid #d7dbe2;
+  }
+
+  #Gauge {
+    position: absolute;
+    width: 274px;
+    height: 11px;
+    left: 23px;
+    top: 514px;
+  }
+
+  #CardSkill {
+    position: absolute;
+    width: 33px;
+    height: 27px;
+    left: 27px;
+    top: 479px;
+    font-family: "MontserratSemi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+    display: flex;
+    align-items: center;
+    color: #8e97a6;
+  }
+
+  #Persentage {
+    position: absolute;
+    width: 34px;
+    height: 16px;
+    left: 304px;
+    top: 511px;
+    font-family: "MontserratSemi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    /* or 196% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #222436;
+  }
+
+  #page3 {
+    position: absolute;
+    width: 100vw;
+    height: 2942px;
+    top: 1934px;
+    z-index: 1;
+    background: #eaecf0;
+  }
+
+  #VImage {
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 437px;
+  }
+
+  #Work {
+    position: absolute;
+    width: 115px;
+    height: 49px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 612px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    color: #222436;
+  }
+
+  #WorkDesc {
+    position: absolute;
+    width: 1371px;
+    height: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 679px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+    color: #414459;
+  }
+
+  #Modal1 {
+    position: absolute;
+    width: 613px;
+    height: 675px;
+    left: 215px;
+    top: 867px;
+  }
+
+  #App1 {
+    position: absolute;
+    width: 298px;
+    height: 36px;
+    left: 1028px;
+    top: 1152px;
+  }
+
+  #Beforeget {
+    position: absolute;
+    width: 263px;
+    height: 61px;
+    left: 1028px;
+    top: 1227px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    color: #222436;
+  }
+
+  #BeforegetDesc {
+    position: absolute;
+    width: 400px;
+    word-break:break-all;
+    height: 84px;
+    left: 1028px;
+    top: 1316px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #414459;
+  }
+
+  #Stack1 {
+    position: absolute;
+    width: 313px;
+    height: 60px;
+    left: 1023px;
+    top: 1460px;
+  }
+
+  #App2 {
+    position: absolute;
+    width: 313px;
+    height: 36px;
+    left: 220px;
+    top: 2154px;
+  }
+
+  #Modal2 {
+    position: absolute;
+    width: 613px;
+    height: 675px;
+    left: 56.875%;
+    top: 1897;
+  }
+
+  #WAL {
+    position: absolute;
+    width: 125px;
+    height: 61px;
+    left: 220px;
+    top: 2229px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    color: #222436;
+  }
+
+  #WALDesc {
+    position: absolute;
+    width: 605px;
+    height: 112px;
+    left: 220px;
+    top: 2318px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #414459;
+  }
+
+  #Stack2 {
+    position: absolute;
+    width: 367px;
+    height: 60px;
+    left: 215px;
+    top: 2490px;
+  }
+
+  #Party {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 43.489%;
+    bottom: 268px;
+    transform: translateX(-50%);
+
+  }
+
+  #BottomName {
+    position: absolute;
+    width: 232px;
+    height: 39px;
+    left: 43.95%;
+    bottom: 218px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    transform: translateX(-50%);
+  }
+
+  #BottomDesc {
+    transform: translateX(-50%);
+    position: absolute;
+    width: 282px;
+    height: 27px;
+    left: 42.65%;
+    bottom: 177px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #D7DBE2;
+  }
+
+  #Social {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 79%;
+    bottom: 65px;
+    transform: translateX(-50%);
+  }
+
+  #Copyright {
+    position: absolute;
+    width: 397px;
+    height: 18px;
+    left: 80px;
+    bottom: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #A5AFC1;
+  }
+
+  .section_underline {
+    width: 50%;
+  }
+
+  .box, .box_list {
+    width: 50%;
+  }
+}
+@media screen and (max-width:510px) {
+  .wrapper {
+    margin: 0;
+    width: 100vw;
+    position: relative;
+    height: 3970px;
+    background: #222436;
+  }
+
+  #PaperPollen {
+    position: absolute;
+    width: 251px;
+    height: 251px;
+    left: 69px;
+    top: 196px;
+  }
+
+  #RockImg {
+    position: absolute;
+    width: 179px;
+    height: 178px;
+    left: 106px;
+    top: 232px;
+  }
+
+  #Headline {
+    position: absolute;
+    width: 227px;
+    height: 60px;
+    left: 82px;
+    top: 507px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  #Description {
+    position: absolute;
+    width: 212px;
+    height: 18px;
+    left: 89px;
+    top: 596px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #EAECF0;
+  }
+
+  #scroll {
+    position: absolute;
+    width: 78px;
+    height: 16px;
+    left: 157.06px;
+    top: 763px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #D7DBE2;
+  }
+
+  #DownArrow {
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    left: 187px;
+    top: 786px;
+  }
+
+  #SkillImg {
+    position: absolute;
+    width: 86px;
+    height: 83px;
+    left: 150px;
+    top: 911px;
+  }
+
+  #SkillText {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    left: 173px;
+    top: 1007px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #EAECF0;
+
+  }
+
+  #SkillDesc {
+    position: absolute;
+    width: 313px;
+    height: 40px;
+    left: 39px;
+    top: 1044px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    text-align: center;
+    color: #EAECF0;
+  }
+
+  .MobileCard {
+    position: absolute;
+    width: 100%;
+    height: 448px;
+    /* left: 35px; */
+    top: 1154px;
+    overflow: scroll;
+  }
+
+  .Card {
+    position: absolute;
+    width: 263px;
+    height: 448px;
+    left: 20px;
+    top: 0px;
+    background: #FFFFFF;
+    /* 1 */
+    box-shadow: 1.69055px 1.69055px 32.1708px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  .Card:nth-child(2) {
+    left: 303px;
+  }
+
+  .Card:nth-child(3) {
+    left: 586px;
+  }
+
+  .Card:nth-child(4) {
+    left: 869px;
+  }
+
+  .CardImage {
+    position: absolute;
+    width: 104px;
+    height: 64px;
+    left: 80px;
+    top: 60px;
+  }
+
+  #Check {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    left: 21px;
+    top: 165px;
+  }
+
+  #CardTitle {
+    position: absolute;
+    width: 71px;
+    height: 22px;
+    left: 47px;
+    top: 160px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #222436;
+  }
+
+  #CardDesc {
+    position: absolute;
+    width: 223px;
+    height: 138px;
+    left: 20px;
+    top: 203px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 23px;
+    /* or 177% */
+    color: #50536C;
+  }
+
+  #Line {
+    position: absolute;
+    width: 223px;
+    height: 0px;
+    left: 20px;
+    top: 194px;
+    border: 1px solid #D7DBE2;
+  }
+
+  #Gauge {
+    position: absolute;
+    width: 144px;
+    height: 8px;
+    left: 20px;
+    top: 414px;
+  }
+
+  #CardSkill {
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 20px;
+    top: 384px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 152% */
+    display: flex;
+    align-items: center;
+    color: #8E97A6;
+  }
+
+  #Persentage {
+    position: absolute;
+    width: 26px;
+    height: 11px;
+    left: 217px;
+    top: 412px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 164% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #222436;
+  }
+
+  #page3 {
+    position: absolute;
+    width: 100%;
+    height: 2160px;
+    left: 0px;
+    top: 1469px;
+    z-index: 1;
+    background: #EAECF0;
+  }
+
+  #VImage {
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    left: 155px;
+    top: 283px;
+  }
+
+  #Work {
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    left: 166px;
+    top: 379px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222436;
+  }
+
+  #WorkDesc {
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    left: 47px;
+    top: 416px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    text-align: center;
+    color: #414459;
+  }
+
+  #Modal1 {
+    position: absolute;
+    width: 272px;
+    height: 299.54px;
+    left: 59px;
+    top: 586px;
+  }
+
+  #App1 {
+    position: absolute;
+    width: 196.92px;
+    height: 23.92px;
+    left: 97px;
+    top: 947px;
+  }
+
+  #Beforeget {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 148px;
+    top: 1011px;
+    font-family: 'MontserratBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #222436;
+  }
+
+  #BeforegetDesc {
+    position: relative;
+    word-break:break-all;
+    width: 244px;
+    height: 44px;
+    left: 73px;
+    top: 1063px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    /* or 169% */
+    text-align: center;
+    color: #414459;
+  }
+
+  #Stack1 {
+    position: absolute;
+    width: 219px;
+    height: 42px;
+    left: 87px;
+    top: 1233px;
+  }
+
+  #MobileLine {
+    position: absolute;
+    width: 341px;
+    height: 0px;
+    left: 25px;
+    top: 1330px;
+    border: 1px solid #D7DBE2;
+  }
+
+  #Modal2 {
+    position: absolute;
+    width: 272px;
+    height: 299px;
+    left: 59px;
+    top: 1387px;
+  }
+
+  #App2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 206.92px;
+    height: 23.92px;
+    left: 99px;
+    top: 1748px;
+  }
+
+  #WAL {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 173px;
+    top: 1812px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #222436;
+  }
+
+  #WALDesc {
+    position: absolute;
+    width: 236px;
+    height: 22px;
+    left: 77px;
+    top: 1864px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+    text-align: center;
+    color: #414459;
+  }
+
+  #Stack2 {
+    position: absolute;
+    width: 257px;
+    height: 42px;
+    left: 69px;
+    top: 2056px;
+  }
+
+  #Party {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 150px;
+    bottom: 213px;
+  }
+
+  #BottomName {
+    position: absolute;
+    width: 116px;
+    height: 20px;
+    left: 137px;
+    bottom: 189.45px;
+    font-family: 'MontserratSemi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  #BottomDesc {
+    position: absolute;
+    width: 154px;
+    height: 15px;
+    left: 118px;
+    bottom: 169.44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: #D7DBE2;
+  }
+
+  #Social {
+    position: absolute;
+    width: 261px;
+    height: 46px;
+    left: 66px;
+    bottom: 82px;
+  }
+
+  #Copyright {
+    position: absolute;
+    width: 212px;
+    height: 10px;
+    left: 89px;
+    bottom: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #A5AFC1;
+  }
+
+  .section_underline {
+    width: 80%;
+  }
+  .box, .box_list {
+    width: 100%;
+  }
+}
